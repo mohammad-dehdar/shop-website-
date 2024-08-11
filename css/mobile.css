@@ -1,0 +1,281 @@
+.top-header .container {
+    display: none;
+}
+
+.top-header .container > div {
+    margin: 10px 0;
+}
+
+.top-header .container > div > ul {
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-header .container > div > ul > li {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+nav {
+    width: 100%;
+    flex-direction: column; /* Stack items vertically */
+    padding: 10px; /* Adjust padding */
+}
+
+nav .navbar-menu {
+    width: 100%;
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+
+nav .navbar-menu ul {
+    position: static; 
+    display: none;
+    background-color: black; 
+}
+
+nav .navbar-menu ul.open {
+    display: flex; /* Show menu items when 'open' class is applied */
+}
+
+nav .navbar-menu ul li {
+    margin: 8px 0; /* Adjust margin */
+}
+
+nav .navbar-menu ul li a {
+    padding: 8px; /* Adjust padding */
+}
+
+.desktop-sidebar {
+    display: none;
+}
+
+hr {
+    display: none;
+}
+
+.mobile-sidebar {
+    display: block;
+    text-align: center;
+}
+
+.mobile-sidebar li {
+    border-bottom: 1px solid var(--second-color);
+    padding: 10px 0;
+    margin-bottom:8px ;
+}
+
+.mobile-sidebar li i{
+    display: none;
+}
+
+
+nav .navbar-menu .other-option {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.slider {
+    height: 400px; /* Reduce height for smaller screens */
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+}
+
+.slider .slider-banner {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; /* Center-align text */
+    width: 90%; /* Adjust width */
+}
+
+.slider .slider-banner span {
+    font-size: 14px; /* Adjust font size */
+}
+
+.slider .slider-banner h1 {
+    font-size: 28px; /* Adjust font size */
+}
+
+.slider .slider-banner p {
+    font-size: 14px; /* Adjust font size */
+}
+
+.slider .slider-banner .slider-button button {
+    padding: 8px 20px; /* Adjust padding */
+    font-size: 12px; /* Adjust font size */
+    margin: 5px 0; /* Adjust margin */
+}
+
+.slider .slider-banner .slider-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider .slider-banner .slider-button button:first-child {
+    margin-bottom: 10px; /* Adjust margin */
+    margin-right: 0; /* Remove right margin */
+}
+
+.product-area .container {
+    margin: 40px 20px 0;
+    padding: 50px 0 30px;
+}
+
+.product-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    max-width: 100%;
+}
+
+.product-card {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.product-info .price-rate {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.product-info .price,
+.product-info .hover-price {
+    position: static;
+    margin: 5px 0;
+}
+
+
+.bg-offer {
+    padding: 40px 12px;
+}
+
+.bg-offer .container-offer .offer-message {
+    width: 60%;
+    padding: 20px;
+    height: 200px;
+}
+
+.bg-offer .container-offer .offer-message h2 {
+    font-size: 20px;
+}
+
+.bg-offer .container-offer .offer-message p {
+    font-size: 10px;
+}
+
+.bg-offer .container-offer .offer-message a {
+    padding: 8px 20px;
+    font-size: 8px;
+}
+
+.client-option {
+    padding: 20px 20px;
+    align-items: center;
+}
+
+.client-option .cilent-option-child {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.client-option .cilent-option-child i {
+    font-size: 1.5rem;
+}
+
+.client-option .cilent-option-child:hover i {
+    font-size: 1.7rem;
+}
+
+.client-option .cilent-option-child p {
+    text-align: center;
+    font-size: 0.5rem;
+}
+
+.partners {
+    padding: 40px 20px;
+}
+
+.partners .partners-logo {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.partners .partners-logo img {
+    width: 20px;
+}
+
+.product-area .container {
+    padding: 0 10px;
+}
+
+.product-area .container .section-title h2 {
+    font-size: 24px;
+}
+
+.product-area .container .carts {
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-area .container .carts .blog-cart {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    padding: 10px 5px;
+}
+
+.product-area .container .carts .blog-cart .img-cart {
+    height: 200px;
+}
+
+.product-area .container .carts .blog-cart img {
+    height: 100%;
+}
+
+.product-area .container .carts .blog-cart h3 {
+    font-size: 18px;
+}
+
+.product-area .container .carts .blog-cart .badge {
+    top: 5px;
+    right: -70px;
+    font-size: 10px;
+    padding: 3px 8px;
+}
+
+.product-area .container .carts .blog-cart:hover .badge {
+    right: 5px;
+}
+
+.instagram-slides .slide {
+    width: 80%;
+}
+
+.instagram-logo {
+    width: 30px;
+}
+
+footer {
+    text-align: center;
+}
+
+.site-footer .container .footer-section .footer-hr{
+    margin: 0 auto;
+}
+
+.site-footer .container .footer-section ul {
+    margin-top: 10px;
+}
+
+
+.site-footer .container .footer-section ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}

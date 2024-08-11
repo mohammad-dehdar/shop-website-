@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/fonawesome/css/all.css">
+    <link rel="stylesheet" href="./css/mobile.css" media=" (max-width: 480px)">
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 481px) and (max-width: 768px)">
+</head>
+
+<body>
+
+    <div class="top-header">
+
+        <div class="container">
+
+            <div class="child1">
+                <ul>
+                    <li>Welcome to Xton</li>
+                    <li class="list-style">Call: +01 321 654 214</li>
+                    <li class="list-style"><i class="fa-solid fa-flag-usa"></i></li>
+                </ul>
+            </div>
+
+            <div class="child2">
+                <ul>
+                    <li><i class="fa-light fa-user"></i>My Account</li>
+                    <li class="list-style"><i class="fa-light fa-heart"></i>Whishlist</li>
+                    <li class="list-style"><i class="fa-light fa-code-compare"></i>Compare</li>
+                    <li class="list-style"><i class="fa-light fa-right-to-bracket"></i>Login</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+    <nav>
+        <a href="">
+            <img src="./img/logo.png" alt="logo">
+        </a>
+
+        <div class="navbar-menu">
+
+            <ul>
+                <li id="first-option">Home<i class="fa-solid fa-angle-down"></i></li>
+                <li>Shop<i class="fa-solid fa-angle-down"></i></li>
+                <li>Pages<i class="fa-solid fa-angle-down"></i></li>
+                <li>Womens<i class="fa-solid fa-angle-down"></i></li>
+                <li>Mens<i class="fa-solid fa-angle-down"></i></li>
+                <li>
+                    Blog<i class="fa-solid fa-angle-down"></i>
+                    <ul class="nav-item">
+                        <li><a href="">option 1</a></li>
+                        <li><a href="">option 2</a></li>
+                        <li><a href="">option 3</a></li>
+                        <li><a href="">option 4</a></li>
+                        <li><a href="">option 5</a></li>
+                        <li><a href="">option 6</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="other-option">
+                <i class="fa-regular fa-bag-shopping">
+                    <div class="notif">3</div>
+                </i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <div>
+                    <div class="content">
+                        <div class="open-btn" onclick="openSidebar()"><i class="fa-solid fa-bars"></i></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="sidebar" id="mySidebar">
+            <div class="header-sidebar desktop-sidebar">
+                <h2 class="desktop-sidebar">About The Store</h2>
+                <div class="close-btn" onclick="closeSidebar()"><i class="fa-light fa-xmark"></i></div>
+            </div>
+            <hr>
+            <div class="sidebar-content desktop-sidebar">
+                <p>One of the most popular on the web is shopping. Lorem ipsum dolor sit amet, consectetur
+                    adipiscing
+                    elit.</p>
+                    <ul>
+                        <li><i class="fa-thin fa-location-dot"></i><a href="#">Wonder Street, USA, New York</a></li>
+                        <li><i class="fa-light fa-phone-volume"></i><a href="#">+01 321 654 214</a></li>
+                        <li><i class="fa-light fa-envelope"></i><a href="#">hello@xton.com</a></li>
+                    <div class="social">
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-square-x-twitter"></i>
+                        <i class="fa-brands fa-square-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-square-pinterest"></i>
+                    </div>
+                </ul>
+            </div>
+            <div class="header-sidebar desktop-sidebar" id="two">
+                <h2 class="desktop-sidebar">New In Store</h2>
+            </div>
+            <hr>
+            <div class="sidebar-image desktop-sidebar">
+                <div class="container-sidebar-image">
+                    <div class="child-sidebar-image">
+                        <img src="./img/popular-products (1).jpg" alt="">
+                    </div>
+                    <div class="child-sidebar-image">
+                        <img src="./img/popular-products (2).jpg" alt="">
+                    </div>
+                    <div class="child-sidebar-image">
+                        <img src="./img/popular-products (3).jpg" alt="">
+                    </div>
+                    <div class="child-sidebar-image">
+                        <img src="./img/popular-products (8).jpg" alt="">
+                    </div>
+                </div>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure ut vitae dolores ipsam
+                    nostrum
+                    asperiores sapiente in blanditiis, consequatur facere?
+                </p>
+                <a href="#">Shop Now</a>
+            </div>
+            <ul class="mobile-sidebar">
+                <li id="first-option">Home<i class="fa-solid fa-angle-down"></i></li>
+                <li>Shop<i class="fa-solid fa-angle-down"></i></li>
+                <li>Pages<i class="fa-solid fa-angle-down"></i></li>
+                <li>Womens<i class="fa-solid fa-angle-down"></i></li>
+                <li>Mens<i class="fa-solid fa-angle-down"></i></li>
+                <li>Blog<i class="fa-solid fa-angle-down"></i></li>
+            </ul>
+        </div>
+        
+    </nav>
+    
+    
+    <div class="slider">
+        <div class="slider-banner">
+            <span>buy now from Xton!</span>
+            <h1>new season canva's</h1>
+            <p>Take 20% Off ‘Sale Must-Haves'</p>
+            <div class="slider-button">
+                <button>shop women's</button>
+                <button id="men">shop mens</button>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="category-banner">
+
+        <div class="banner-child"><img src="./img/category-banner (4).jpg" alt="">
+            <div class="banner-text">
+                <p>don't miss today</p>
+                <h3>50% OFF</h3>
+            </div>
+            <a class="banner-button" href="#">Discover Now</a>
+        </div>
+
+        <div class="banner-child"><img src="./img/category-banner (1).jpg" alt="">
+            <div class="banner-text">
+                <p>don't miss today</p>
+                <h3>50% OFF</h3>
+            </div>
+            <a class="banner-button" href="#">Discover Now</a>
+        </div>
+
+        <div class="banner-child"><img src="./img/category-banner (2).jpg" alt="">
+            <div class="banner-text">
+                <p>don't miss today</p>
+                <h3>50% OFF</h3>
+            </div>
+            <a class="banner-button" href="#">Discover Now</a>
+        </div>
+
+        <div class="banner-child"><img src="./img/category-banner (3).jpg" alt="">
+            <div class="banner-text">
+                <p>don't miss today</p>
+                <h3>50% OFF</h3>
+            </div>
+            <a class="banner-button" href="#">Discover Now</a>
+        </div>
+
+    </section>
+
+
+    <section class="product-area">
+        <div class="container">
+
+            <div class="section-title">
+                <span class="subtitle">See Our Collection</span>
+                <h2>Recent Products</h2>
+            </div>
+
+
+            <div class="product-cards">
+
+                <div class="product-card">
+
+                    <div class="image">
+                        <img class="default-img" src="./img/products (1).jpg" alt="Long Sleeve Leopard T-Shirt">
+                        <img class="image-hover" src="./img/products (2).jpg" alt="Long Sleeve Leopard T-Shirt">
+                        <div class="image-options">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="fa-light fa-heart"></i>
+                            <i class="fa-light fa-code-compare"></i>
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <h3>Long Sleeve Leopard T-Shirt</h3>
+                        <div class="price-rate">
+                            <p class="price"><span class="original-price">$210</span> $200</p>
+                            <p class="hover-price">Add to cart</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="product-card">
+
+                    <div class="image">
+                        <img class="default-img" src="./img/products (3).jpg" alt="Causal V-Neck Soft Raglan">
+                        <img class="image-hover" src="./img/products (4).jpg" alt="Causal V-Neck Soft Raglan">
+                        <div class="image-options">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="fa-light fa-heart"></i>
+                            <i class="fa-light fa-code-compare"></i>
+                        </div>
+                    </div>
+
+                    <div class="sale-badge">SALE!</div>
+
+                    <div class="product-info">
+                        <h3>Causal V-Neck Soft Raglan</h3>
+                        <div class="price-rate">
+                            <p class="price"><span class="original-price">$210</span> $200</p>
+                            <p class="hover-price">Add to cart</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="product-card">
+
+                    <div class="image">
+                        <img class="default-img" src="./img/products (5).jpg" alt="Hanes Men's Pullover">
+                        <img class="image-hover" src="./img/products (6).jpg" alt="Hanes Men's Pullover">
+                        <div class="image-options">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="fa-light fa-heart"></i>
+                            <i class="fa-light fa-code-compare"></i>
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <h3>Hanes Men's Pullover</h3>
+                        <div class="price-rate">
+                            <p class="price"><span class="original-price">$210</span> $200</p>
+                            <p class="hover-price">Add to cart</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="product-card">
+
+                    <div class="image">
+                        <img class="default-img" src="./img/products (7).jpg" alt="Hanes Men's Pullover">
+                        <img class="image-hover" src="./img/products (8).jpg" alt="Hanes Men's Pullover">
+                        <div class="image-options">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="fa-light fa-heart"></i>
+                            <i class="fa-light fa-code-compare"></i>
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <h3>Hanes Men's Pullover</h3>
+                        <div class="price-rate">
+                            <p class="price"><span class="original-price">$210</span> $200</p>
+                            <p class="hover-price">Add to cart</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="product-card">
+
+                    <div class="image">
+                        <img class="default-img" src="./img/products (9).jpg" alt="Hanes Men's Pullover">
+                        <img class="image-hover" src="./img/products (10).jpg" alt="Hanes Men's Pullover">
+                        <div class="image-options">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="fa-light fa-heart"></i>
+                            <i class="fa-light fa-code-compare"></i>
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <h3>Hanes Men's Pullover</h3>
+                        <div class="price-rate">
+                            <p class="price"><span class="original-price">$210</span> $200</p>
+                            <p class="hover-price">Add to cart</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="product-card">
+
+                    <div class="image">
+                        <img class="default-img" src="./img/products (11).jpg" alt="Hanes Men's Pullover">
+                        <img class="image-hover" src="./img/products (12).jpg" alt="Hanes Men's Pullover">
+                        <div class="image-options">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="fa-light fa-heart"></i>
+                            <i class="fa-light fa-code-compare"></i>
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <h3>Hanes Men's Pullover</h3>
+                        <div class="price-rate">
+                            <p class="price"><span class="original-price">$210</span> $200</p>
+                            <p class="hover-price">Add to cart</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="bg-offer">
+
+        <div class="container-offer">
+
+            <div class="offer-message">
+                <span class="subtitle">Limited Time For Offer</span>
+                <h2>40% OFF</h2>
+                <p>Get the best deals now</p>
+                <a href="#">Discover Now</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="product-area">
+        <div class="container">
+
+            <div class="section-title">
+                <span class="subtitle">See Our Collection</span>
+                <h2>Popular Products</h2>
+            </div>
+
+            <div class="product-cards">
+                <div class="product-card">
+
+                    <div class="image">
+
+                        <img class="default-img" src="./img/popular-products (1).jpg" alt="Long Sleeve Leopard T-Shirt">
+                        <img class="image-hover" src="./img/popular-products (2).jpg" alt="Long Sleeve Leopard T-Shirt">
+                        <div class="image-options">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="fa-light fa-heart"></i>
+                            <i class="fa-light fa-code-compare"></i>
+                        </div>
+
+                    </div>
+
+                    <div class="product-info">
+                        <h3>Long Sleeve Leopard T-Shirt</h3>
+
+                        <div class="price-rate">
+                            <p class="price"><span class="original-price">$210</span> $200</p>
+                            <p class="hover-price">Add to cart</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="product-card">
+
+                    <div class="image">
+                        <img class="default-img" src="./img/popular-products (3).jpg" alt="Causal V-Neck Soft Raglan">
+                        <img class="image-hover" src="./img/popular-products (4).jpg" alt="Causal V-Neck Soft Raglan">
+                        <div class="image-options">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="fa-light fa-heart"></i>
+                            <i class="fa-light fa-code-compare"></i>
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <h3>Causal V-Neck Soft Raglan</h3>
+                        <div class="price-rate">
+                            <p class="price"><span class="original-price">$210</span> $200</p>
+                            <p class="hover-price">Add to cart</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="product-card">
+
+                    <div class="image">
+                        <img class="default-img" src="./img/popular-products (5).jpg" alt="Hanes Men's Pullover">
+                        <img class="image-hover" src="./img/popular-products (6).jpg" alt="Hanes Men's Pullover">
+                        <div class="image-options">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="fa-light fa-heart"></i>
+                            <i class="fa-light fa-code-compare"></i>
+                        </div>
+                    </div>
+
+                    <div class="new-badge">NEW</div>
+
+                    <div class="product-info">
+                        <h3>Hanes Men's Pullover</h3>
+                        <div class="price-rate">
+                            <p class="price"><span class="original-price">$210</span> $200</p>
+                            <p class="hover-price">Add to cart</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="product-card">
+
+                    <div class="image">
+
+                        <img class="default-img" src="./img/popular-products (7).jpg" alt="Hanes Men's Pullover">
+                        <img class="image-hover" src="./img/popular-products (8).jpg" alt="Hanes Men's Pullover">
+                        <div class="image-options">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="fa-light fa-heart"></i>
+                            <i class="fa-light fa-code-compare"></i>
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <h3>Hanes Men's Pullover</h3>
+                        <div class="price-rate">
+                            <p class="price"><span class="original-price">$210</span> $200</p>
+                            <p class="hover-price">Add to cart</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="product-card">
+
+                    <div class="image">
+                        <img class="default-img" src="./img/popular-products (9).jpg" alt="Hanes Men's Pullover">
+                        <img class="image-hover" src="./img/popular-products (10).jpg" alt="Hanes Men's Pullover">
+                        <div class="image-options">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="fa-light fa-heart"></i>
+                            <i class="fa-light fa-code-compare"></i>
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <h3>Hanes Men's Pullover</h3>
+                        <div class="price-rate">
+                            <p class="price"><span class="original-price">$210</span> $200</p>
+                            <p class="hover-price">Add to cart</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="product-card">
+
+                    <div class="image">
+                        <img class="default-img" src="./img/popular-products (11).jpg" alt="Hanes Men's Pullover">
+                        <img class="image-hover" src="./img/popular-products (12).jpg" alt="Hanes Men's Pullover">
+                        <div class="image-options">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="fa-light fa-heart"></i>
+                            <i class="fa-light fa-code-compare"></i>
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <h3>Hanes Men's Pullover</h3>
+                        <div class="price-rate">
+                            <p class="price"><span class="original-price">$210</span> $200</p>
+                            <p class="hover-price">Add to cart</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="client-option">
+        <div class="cilent-option-child">
+            <i class="fa-duotone fa-box-open"></i>
+            <p>Easy Return Policy</p>
+        </div>
+        <div class="cilent-option-child">
+            <i class="fa-duotone fa-rotate"></i>
+            <p>7 Day Exchange Policy</p>
+        </div>
+        <div class="cilent-option-child">
+            <i class="fa-duotone fa-credit-card"></i>
+            <p>Secure Payments Methods</p>
+        </div>
+        <div class="cilent-option-child">
+            <i class="fa-duotone fa-truck-bolt"></i>
+            <p>Free Shipping Worldwide</p>
+        </div>
+    </section>
+
+    <section class="product-area">
+        <div class="container">
+
+            <div class="section-title">
+                <span class="subtitle">See Our Collection</span>
+                <h2>Best Selling Products</h2>
+            </div>
+
+            <div class="product-cards">
+                <div class="product-card">
+
+                    <div class="image">
+
+                        <img class="default-img" src="./img/best-selling (1).jpg" alt="Long Sleeve Leopard T-Shirt">
+                        <img class="image-hover" src="./img/best-selling (2).jpg" alt="Long Sleeve Leopard T-Shirt">
+                        <div class="image-options">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="fa-light fa-heart"></i>
+                            <i class="fa-light fa-code-compare"></i>
+                        </div>
+
+                    </div>
+
+                    <div class="product-info">
+                        <h3>Long Sleeve Leopard T-Shirt</h3>
+
+                        <div class="price-rate">
+                            <p class="price"><span class="original-price">$210</span> $200</p>
+                            <p class="hover-price">Add to cart</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="product-card">
+
+                    <div class="image">
+                        <img class="default-img" src="./img/best-selling (3).jpg" alt="Causal V-Neck Soft Raglan">
+                        <img class="image-hover" src="./img/best-selling (4).jpg" alt="Causal V-Neck Soft Raglan">
+                        <div class="image-options">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="fa-light fa-heart"></i>
+                            <i class="fa-light fa-code-compare"></i>
+                        </div>
+                    </div>
+
+                    <div class="sale-badge">SALE!</div>
+
+                    <div class="product-info">
+                        <h3>Causal V-Neck Soft Raglan</h3>
+                        <div class="price-rate">
+                            <p class="price"><span class="original-price">$210</span> $200</p>
+                            <p class="hover-price">Add to cart</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="product-card">
+
+                    <div class="image">
+                        <img class="default-img" src="./img/best-selling (5).jpg" alt="Hanes Men's Pullover">
+                        <img class="image-hover" src="./img/best-selling (6).jpg" alt="Hanes Men's Pullover">
+                        <div class="image-options">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="fa-light fa-heart"></i>
+                            <i class="fa-light fa-code-compare"></i>
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <h3>Hanes Men's Pullover</h3>
+                        <div class="price-rate">
+                            <p class="price"><span class="original-price">$210</span> $200</p>
+                            <p class="hover-price">Add to cart</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="product-card">
+
+                    <div class="image">
+
+                        <img class="default-img" src="./img/best-selling (7).jpg" alt="Hanes Men's Pullover">
+                        <img class="image-hover" src="./img/best-selling (8).jpg" alt="Hanes Men's Pullover">
+                        <div class="image-options">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="fa-light fa-heart"></i>
+                            <i class="fa-light fa-code-compare"></i>
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <h3>Hanes Men's Pullover</h3>
+                        <div class="price-rate">
+                            <p class="price"><span class="original-price">$210</span> $200</p>
+                            <p class="hover-price">Add to cart</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="product-card">
+
+                    <div class="image">
+                        <img class="default-img" src="./img/best-selling (9).jpg" alt="Hanes Men's Pullover">
+                        <img class="image-hover" src="./img/best-selling (10).jpg" alt="Hanes Men's Pullover">
+                        <div class="image-options">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="fa-light fa-heart"></i>
+                            <i class="fa-light fa-code-compare"></i>
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <h3>Hanes Men's Pullover</h3>
+                        <div class="price-rate">
+                            <p class="price"><span class="original-price">$210</span> $200</p>
+                            <p class="hover-price">Add to cart</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="product-card">
+
+                    <div class="image">
+                        <img class="default-img" src="./img/best-selling (11).jpg" alt="Hanes Men's Pullover">
+                        <img class="image-hover" src="./img/best-selling (12).jpg" alt="Hanes Men's Pullover">
+                        <div class="image-options">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="fa-light fa-heart"></i>
+                            <i class="fa-light fa-code-compare"></i>
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+                        <h3>Hanes Men's Pullover</h3>
+                        <div class="price-rate">
+                            <p class="price"><span class="original-price">$210</span> $200</p>
+                            <p class="hover-price">Add to cart</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="partners">
+        <h2>Our Partners</h2>
+        <div class="partners-logo">
+            <img src="./img/partner.png" alt="">
+            <img src="./img/partner2.png" alt="">
+            <img src="./img/partner3.png" alt="">
+            <img src="./img/partner4.png" alt="">
+            <img src="./img/partner5.png" alt="">
+            <img src="./img/partner6.png" alt="">
+            <!-- <img src="./img/partner7.png" alt=""> -->
+            <img src="./img/partner8.png" alt="">
+            <img src="./img/partner9.png" alt="">
+            <img src="./img/partner10.png" alt="">
+        </div>
+    </section>
+
+    <section class="product-area">
+        <div class="container">
+            <div class="section-title">
+                <span class="subtitle">See Our Collection</span>
+                <h2>Best Selling Products</h2>
+            </div>
+            <div class="carts">
+                <div class="blog-cart">
+                    <div class="img-cart">
+                        <img src="./img/Blog-content (1).jpg" alt="">
+                        <div class="badge">01 Jan 2024</div>
+                    </div>
+                    <span class="subtitle">IDEAS</span>
+                    <h3>The #1 eCommerce blog to grow your business</h3>
+                    <a href="">Read Story</a>
+                </div>
+                <div class="blog-cart">
+                    <div class="img-cart">
+                        <img src="./img/Blog-content (2).jpg" alt="">
+                        <div class="badge">01 Feb 2024</div>
+                    </div>
+                    <span class="subtitle">IDEAS</span>
+                    <h3>The #1 eCommerce blog to grow your business</h3>
+                    <a href="">Read Story</a>
+                </div>
+                <div class="blog-cart">
+                    <div class="img-cart">
+                        <img src="./img/Blog-content (3).jpg" alt="">
+                        <div class="badge">01 Mar 2024</div>
+                    </div>
+                    <span class="subtitle">IDEAS</span>
+                    <h3>The #1 eCommerce blog to grow your business</h3>
+                    <a href="">Read Story</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="follow-us">
+        <i class="fa-brands fa-instagram"></i>
+        <a href="#">follow us on @xton</a>
+    </div>
+    <div class="instagram-slides">
+        <div class="slide">
+            <img src="./img/instagram (1).jpg" alt="">
+            <img class="instagram-logo" src="./img/instagram-logo.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="./img/instagram (3).jpg" alt="">
+            <img class="instagram-logo" src="./img/instagram-logo.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="./img/instagram (4).jpg" alt="">
+            <img class="instagram-logo" src="./img/instagram-logo.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="./img/instagram (5).jpg" alt="">
+            <img class="instagram-logo" src="./img/instagram-logo.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="./img/instagram (6).jpg" alt="">
+            <img class="instagram-logo" src="./img/instagram-logo.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="./img/instagram (2).jpg" alt="">
+            <img class="instagram-logo" src="./img/instagram-logo.png" alt="">
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-section">
+                <h2>About The Store</h2>
+                <hr class="footer-hr">
+                <ul>
+                    <li><a href="#">One of the most popular on the web is shopping.</a></li>
+                    <li><i class="fa-thin fa-location-dot"></i><a href="#">Wonder Street, USA, New York</a></li>
+                    <li><i class="fa-light fa-phone-volume"></i><a href="#">+01 321 654 214</a></li>
+                    <li><i class="fa-light fa-envelope"></i><a href="#">hello@xton.com</a></li>
+                    <div class="social">
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-square-x-twitter"></i>
+                        <i class="fa-brands fa-square-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-square-pinterest"></i>
+                    </div>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h2>Quiuck Links</h2>
+                <hr class="footer-hr">
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Shop Now!</a></li>
+                    <li><a href="#">Woman's</a></li>
+                    <li><a href="#">FAQ's</a></li>
+                    <li><a href="#">Contact US</a></li>
+                    <li><a href="#">Customer Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h2>Customer Support</h2>
+                <hr class="footer-hr">
+                <ul>
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">Checkout</a></li>
+                    <li><a href="#">Cart</a></li>
+                    <li><a href="#">FAQ's</a></li>
+                    <li><a href="#">Order Tracking</a></li>
+                    <li><a href="#">Help Support</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h2>Newsletter</h2>
+                <hr class="footer-hr">
+                <ul>
+                    <li><a href="">to get latest news and latest updates from us</a></li>
+                </ul>
+                <form action="#">
+                    <input type="email" placeholder="Your Email" required>
+                    <button type="submit">Confirm</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyRight"></div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
